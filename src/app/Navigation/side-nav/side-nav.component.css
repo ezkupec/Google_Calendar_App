@@ -1,0 +1,9 @@
+.nav-link {
+    list-style-type:none;
+    color:rgb(98, 93, 93);
+    padding:10px;
+}
+.nav-item {
+    list-style-type:none;
+    color:rgb(98, 93, 93); 
+}

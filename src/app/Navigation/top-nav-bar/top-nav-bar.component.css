@@ -1,0 +1,55 @@
+body{
+
+    background: #d7dadd;
+}
+
+.height{
+
+    height: 5vh;
+}
+
+.form{
+
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 15px;
+    color: #727478;
+   
+}
+
+.form span{
+
+        position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 50px;
+    text-indent: 33px;
+    border-radius: 8px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
