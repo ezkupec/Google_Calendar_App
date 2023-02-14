@@ -53,3 +53,9 @@ body{
     box-shadow: none;
     border:none;
 }
+.navbar {
+    position: fixed;
+}
+.navbar-expand-lg navbar-light bg-light {
+    position: fixed;
+}
