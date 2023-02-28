@@ -9,12 +9,5 @@ import { mock_list } from './Components/body/mock_list';
 })
 export class AppComponent {
   title = 'GoogleCalendarApp';
-  products: ProductModel [] = [];
-
-  constructor(){
-    for (var item of mock_list){
-      console.log(item);
-      this.products.push(item);
-    }
-  }
+  
 }
