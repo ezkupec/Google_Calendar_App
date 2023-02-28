@@ -4,5 +4,19 @@
 }
 
 .container-fluid {
-    padding-left: 23%;
+    padding-left: 70%;
+}
+
+.card {
+    width:400px;
+    flex-wrap: wrap;
+    height: 210px;
+}
+
+.flex-container {
+    flex-wrap: wrap;
+}
+
+.card-footer {
+    background-color: white;
 }
