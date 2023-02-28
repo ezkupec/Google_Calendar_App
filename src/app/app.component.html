@@ -1,7 +1,7 @@
 <app-top-nav-bar> </app-top-nav-bar>
 <app-side-nav></app-side-nav>
 <app-header></app-header>
-<div style="flex-wrap: wrap; align-items: center; display: flex; position: fixed" class = "container-fluid d-flex flex-container">
+<div style="flex-wrap: wrap; align-items: center; display: flex; position: static;" class = "container-fluid d-flex flex-container">
     <div *ngFor="let item of products">
         <app-body title = {{item.title}} imgDescription={{item.imgDescription}} body={{item.body}} img={{item.img}} buttonText={{item.buttonText}}></app-body>
     </div>
