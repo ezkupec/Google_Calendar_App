@@ -1,0 +1,8 @@
+.body {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-fluid {
+    padding-left: 23%;
+}
