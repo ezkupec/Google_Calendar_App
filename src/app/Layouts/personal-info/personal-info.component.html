@@ -1,1 +1,20 @@
-<p style="align-self: center; font-size: 100; color:blueviolet; padding-top: 100px; padding-left: 200px">personal-info works!</p>
+<div class="flex-container">
+    <h3 style="padding-left: 32%;">Personal info</h3>
+    <p style="padding-left: 17%;">Info about you and your preferences across Google services</p>
+    <br>
+    <br>
+    <div>
+        <h3>Your personal info in Google services</h3> 
+        <p>
+        <img style="width: 360px; height: 128px; float: right;" src="/assets/images/profilescene.png">
+        Personal info and options to manage it. You can make some of <br> 
+        this info, like your contact details, visible to others so they can <br>
+        reach you easily. You can also see a summary of your profiles.
+        </p>
+    </div>
+        <div class="col-">
+        <div *ngFor="let item of products">
+            <app-long-cards title = {{item.title}} body={{item.body}} L1={{item.L1}} L2={{item.L2}} L3={{item.L3}} img={{item.img}} imgDescription={{item.imgDescription}}></app-long-cards>
+        </div>
+        </div>
+</div>

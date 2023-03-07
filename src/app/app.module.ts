@@ -14,6 +14,8 @@ import { SecurityComponent } from './Layouts/security/security.component';
 import { PeopleSharingComponent } from './Layouts/people-sharing/people-sharing.component';
 import { PaymentsSubscriptionsComponent } from './Layouts/payments-subscriptions/payments-subscriptions.component';
 import { AboutComponent } from './Layouts/about/about.component';
+import { LongCardsComponent } from './Components/long-cards/long-cards.component';
+import { BodyLongComponent } from './Components/body-long/body-long.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { AboutComponent } from './Layouts/about/about.component';
     PeopleSharingComponent,
     PaymentsSubscriptionsComponent,
     AboutComponent,
+    LongCardsComponent,
+    BodyLongComponent,
   ],
   imports: [
     BrowserModule,

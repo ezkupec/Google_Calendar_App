@@ -1,1 +1,11 @@
-<p style="align-self: center; font-size: 100; color:blueviolet; padding-top: 100px; padding-left: 200px">payments-subscriptions works!</p>
+<div class="flex-container">
+    <h3 style="padding-left: 24%;">Payments & subscriptions</h3>
+    <p style="padding-left: 16%;">Your payment info, transactions, recurring payments, and reservations</p>
+    
+    <div class="col-">
+        <div *ngFor="let item of products">
+            <app-body-long title = {{item.title}} body={{item.body}} buttonText={{item.buttonText}} img={{item.img}} imgDescription={{item.imgDescription}}></app-body-long>
+        </div>
+    </div>
+
+</div>
